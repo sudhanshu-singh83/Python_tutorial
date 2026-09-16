@@ -1,0 +1,8 @@
+# Write a program to greet all the person names
+# stored in a list ‘lʼ and which starts with S.
+# l = ["Sudhanshu", "Soham", "Sachin", "Rahul"]
+
+l = ["Sudhanshu", "Soham", "Sachin", "Rahul"]
+for name in l:
+    if(name.startswith("S")):
+        print(f"Hello {name}")
